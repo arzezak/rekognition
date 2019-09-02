@@ -1,0 +1,18 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 1em;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: 500px;
+}
+
+figcaption {
+  margin-top: 1.5em;
+}

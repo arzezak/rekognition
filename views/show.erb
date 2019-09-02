@@ -1,0 +1,10 @@
+<h1><%= file_name %></h1>
+
+<figure>
+  <img src="data:image/jpg;base64,<%= Base64.encode64(blob.read) %>">
+  <figcaption><%= rekognition_tags File.read(blob) %></figcaption>
+</figure>
+
+<br>
+
+<a href="/">Back</a>
