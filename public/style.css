@@ -4,6 +4,10 @@ body {
   padding: 0 1em;
 }
 
+figcaption {
+  margin-top: 1.5em;
+}
+
 figure {
   margin: 0;
 }
@@ -11,8 +15,4 @@ figure {
 img {
   display: block;
   height: 500px;
-}
-
-figcaption {
-  margin-top: 1.5em;
 }
